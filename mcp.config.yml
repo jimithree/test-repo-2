@@ -1,0 +1,4 @@
+servers:
+  - name: browsertools
+    description: 浏览器工具MCP服务器
+    tools: []
