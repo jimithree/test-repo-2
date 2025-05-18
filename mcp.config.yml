@@ -1,4 +1,10 @@
 servers:
   - name: browsertools
     description: 浏览器工具MCP服务器
-    tools: []
+    tools:
+      - name: open_browser
+        description: 打开指定URL的浏览器窗口
+      - name: capture_screenshot
+        description: 捕获当前网页截图
+      - name: get_page_source
+        description: 获取当前网页源代码
